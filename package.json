@@ -1,0 +1,23 @@
+{
+  "name": "chimp-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "chimp",
+    "watch": "chimp --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chimp": "0.51.1",
+    "chromedriver": "87.0.0"
+  },
+  "resolutions": {
+    "chimp/fibers": "^4.0.2",
+    "chimp/**/fibers": "^4.0.2",
+    "chimp/fibers/node-gyp": "^5.0.6",
+    "chimp/selenium-standalone": "^6.15.3"
+  }
+}
