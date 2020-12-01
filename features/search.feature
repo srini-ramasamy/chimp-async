@@ -1,11 +1,7 @@
 @watch
-Feature: Search the Web
+Feature: Search something
 
-  As a human
-  I want to search the web
-  So I can find information
-
-  Scenario: Search for Xolv.io
-    Given I have visited Google
-    When I search for "Xolv.io"
-    Then I see "Xolv.io"
+  Scenario: Search for canva
+    Given I go to Google
+    When I search for "Canva"
+    Then I see "Canva"

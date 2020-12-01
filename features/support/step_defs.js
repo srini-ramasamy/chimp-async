@@ -1,14 +1,14 @@
 module.exports = function () {
-    this.Given(/^I have visited Google$/, function () {
-        browser.url('http://google.com');
+    this.Given(/^I go to Google$/, async function () {
+        await browser.url('http://google.com');
     });
 
-    this.When(/^I search for "([^"]*)"$/, function (searchTerm) {
-        browser.setValue('input[name="q"]', searchTerm);
-        browser.keys(['Enter']);
+    this.When(/^I search for "([^"]*)"$/, async function (searchTerm) {
+        await browser.setValue('input[name="q"]', searchTerm);
+        await browser.keys(['Enter']);
     });
 
-    this.Then(/^I see "([^"]*)"$/, function (link) {
-        browser.waitForExist('span=' + link);
+    this.Then(/^I see "([^"]*)"$/, async function (link) {
+        await browser.waitForExist('h3=' + link);
     });
 }
