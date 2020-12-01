@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2018",
+      "es2019.array"
+    ],
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "target",
+    "strict": true,
+    "skipLibCheck": true,
+    "target": "ES2019",
+    "sourceMap": true,
+    "inlineSources": true,
+    "module": "commonjs",
+    // Don't load any declaration files as it slows down the project reference builds.
+    "types": []
+  },
+  "include": [
+    "bin",
+    "conf",
+    "declarations",
+    "desktop_app/**/*",
+    "harness",
+    "src/**/*",
+    "tools",
+    "webpack.config.ts"
+  ]
+}

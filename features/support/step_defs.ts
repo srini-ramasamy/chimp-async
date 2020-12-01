@@ -1,6 +1,6 @@
-module.exports = function () {
+export default function () {
     this.Given(/^I go to Google$/, async function () {
-        await browser.url('http://google.com');
+        browser.url('http://google.com');
     });
 
     this.When(/^I search for "([^"]*)"$/, async function (searchTerm) {

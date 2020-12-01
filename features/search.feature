@@ -1,4 +1,4 @@
-@watch
+@watch @focus
 Feature: Search something
 
   Scenario: Search for canva
