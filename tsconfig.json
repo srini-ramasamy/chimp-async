@@ -24,14 +24,4 @@
     // Don't load any declaration files as it slows down the project reference builds.
     "types": []
   },
-  "include": [
-    "bin",
-    "conf",
-    "declarations",
-    "desktop_app/**/*",
-    "harness",
-    "src/**/*",
-    "tools",
-    "webpack.config.ts"
-  ]
 }
