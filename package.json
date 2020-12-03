@@ -20,8 +20,9 @@
     "jest-matchers": "^20.0.3"
   },
   "resolutions": {
-    "mkdirp": "0.5.5",
-    "got": "9.6.0"
+    "chimp/fibers": "^4.0.2",
+    "chimp/**/fibers": "^4.0.2",
+    "chimp/fibers/node-gyp": "^5.0.6",
+    "chimp/selenium-standalone": "^6.15.3"
   }
-
 }
