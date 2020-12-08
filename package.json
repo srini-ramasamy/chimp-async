@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "chimp": "0.51.1",
-    "chromedriver": "87.0.0"
+    "jest-matchers": "^20.0.3"
   },
   "resolutions": {
     "chimp/fibers": "^4.0.2",
